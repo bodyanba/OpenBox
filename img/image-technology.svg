@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="732" height="732" viewBox="0 0 732 732">
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Poppins:700,900|Roboto:700|Rubik:400,700');
+        </style>
+        <text id="b" fill="#FFF" font-family="Poppins-Black, Poppins" font-size="19" font-weight="700">
+            <tspan x="64" y="73">Donors</tspan>
+        </text>
+        <filter id="a" width="125%" height="166.7%" x="-12.5%" y="-33.3%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.200803895 0"/>
+        </filter>
+        <text id="d" fill="#FFF" font-family="Poppins-Black, Poppins" font-size="19" font-weight="700">
+            <tspan x="306" y="73">Bank</tspan>
+        </text>
+        <filter id="c" width="134%" height="166.7%" x="-17%" y="-33.3%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.200803895 0"/>
+        </filter>
+        <text id="f" fill="#FFF" font-family="Poppins-Black, Poppins" font-size="19" font-weight="700">
+            <tspan x="289" y="464">OpenBox</tspan>
+        </text>
+        <filter id="e" width="119.8%" height="166.7%" x="-9.9%" y="-33.3%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.200803895 0"/>
+        </filter>
+        <text id="h" fill="#FFF" font-family="Poppins-Black, Poppins" font-size="19" font-weight="700">
+            <tspan x="277" y="300">Blockchain</tspan>
+        </text>
+        <filter id="g" width="115.9%" height="166.7%" x="-8%" y="-33.3%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.200803895 0"/>
+        </filter>
+        <text id="j" fill="#FFF" font-family="Poppins-Black, Poppins" font-size="19" font-weight="700">
+            <tspan x="281" y="659">Nonprofit</tspan>
+        </text>
+        <filter id="i" width="118.8%" height="166.7%" x="-9.4%" y="-33.3%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.200803895 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h732v732H0z"/>
+        <path fill="#34B5F3" d="M248 12.5h179v120H248z"/>
+        <path fill="#8DBFD7" d="M238 7.5v117l8 7.22V12.133zM247.45 10.5l-7.45-4h177l9.557 4z"/>
+        <path fill="#4E9C38" d="M15 203h180v120H15z"/>
+        <path fill="#9AB592" d="M5 198.5v117l8 7.22V203.133zM14.45 201L7 197h177l9.557 4z"/>
+        <g fill="#FFF" transform="translate(5 197)">
+            <use filter="url(#a)" xlink:href="#b"/>
+            <use xlink:href="#b"/>
+        </g>
+        <path fill="#8CDAC2" d="M239 398.5v117l8 7.22V403.133zM248.45 401.5l-7.45-4h177l9.557 4z"/>
+        <path fill="#00DE9A" d="M249 403.5h180v120H249z"/>
+        <path fill="#F0B500" d="M249 274h179v50H249z"/>
+        <path fill="#90782E" d="M249 204h179v70H249z" opacity=".798"/>
+        <path fill="#B5AB8C" d="M248.45 202l-7.45-4h177l9.557 4zM239 199v117l8 7.22V203.633z"/>
+        <path fill="#D7C27F" d="M239 268.716v48l8 7v-50z"/>
+        <g stroke="#FFF">
+            <g stroke-linecap="square" stroke-width=".9">
+                <path d="M269.833 216.5h6.306M290.833 216.5h7.306M268.635 239.5h7.465M290.635 239.5h7.465M312.833 216.5h8.64M312.635 239.5h7.465M312.635 260.5h7.465M284.5 225.143v5.714M305.5 225.143v5.714M262.5 225.143v5.714M284.5 245.571v7.858M305.5 245.571v7.858M262.5 245.571v7.858M334.667 216.5H343M356.667 216.5H365M334.635 239.5h7.465M334.635 260.5h7.465M356.635 260.5h7.465M350.5 225.143v5.714M328.5 225.143v5.714M350.5 245.571v7.858M328.5 245.571v7.858M378.635 216.5H387M399.833 216.5H409M378.635 260.5h7.465M400.635 260.5h7.465M393.5 225.143v5.714M415.5 225.143v5.714M371.5 225.143v5.714M393.5 245.571v7.858M415.5 245.571v7.858M371.5 245.571v7.858M268.999 260.875h7.14M290.999 260.875h7.14M356.754 238.975h7.091M378.315 238.975h7.189M400.464 238.975h7.188"/>
+            </g>
+            <g stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M255 210h14v14h-14zM255 232h14v14h-14zM255 254h14v14h-14zM277 210h14v14h-14zM277 232h14v14h-14zM277 254h14v14h-14zM299 210h14v14h-14zM299 232h14v14h-14zM299 254h14v14h-14zM321 210h14v14h-14zM321 232h14v14h-14zM321 254h14v14h-14zM342.85 210h14v14h-14zM343 232h14v14h-14zM343 254h14v14h-14zM364.7 210h14v14h-14zM365 232h14v14h-14zM365 254h14v14h-14zM386.37 210h14v14h-14zM386 232h14v14h-14zM386 254h14v14h-14zM408.519 210h14v14h-14zM409 232h14v14h-14zM409 254h14v14h-14z"/>
+            </g>
+        </g>
+        <path fill="#2D8A4C" d="M249 602.5h180v120H249z"/>
+        <path fill="#86C199" d="M239 597.5v117l8 7.22V602.133zM248.45 600.5l-7.45-4h177l9.557 4z"/>
+        <g transform="translate(512 360)">
+            <rect width="151" height="59" x="14.5" y=".5" fill="#046383" stroke="#2290C5" rx="4"/>
+            <path fill="#F7F7F7" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M15 30.626L0 22.813 14.93 15l15 7.813v15.374L15 45.823V30.626zM0 22.813l14.93 7.813v15.197L0 38.187V22.813z"/>
+            <path fill="#00ACFF" d="M0 22.813l14.93 7.813v15.197L0 38.187z"/>
+            <path fill="#046383" d="M29.93 22.813L15 30.626v15.197l14.93-7.636z"/>
+            <path fill="#80B9D5" d="M0 22.813L14.93 15l15 7.813L15 30.626z"/>
+            <text fill="#FFF" font-family="Poppins-Bold, Poppins" font-size="15" font-weight="bold">
+                <tspan x="41" y="34">Services</tspan>
+            </text>
+        </g>
+        <g transform="translate(512 175)">
+            <rect width="151" height="59" x="14.5" y="85.5" fill="#046383" stroke="#2290C5" rx="4"/>
+            <path fill="#F7F7F7" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M15 114.626l-15-7.813L14.93 99l15 7.813v15.374L15 129.823v-15.197zm-15-7.813l14.93 7.813v15.197L0 122.187v-15.374z"/>
+            <path fill="#00ACFF" d="M0 106.813l14.93 7.813v15.197L0 122.187z"/>
+            <path fill="#046383" d="M29.93 106.813L15 114.626v15.197l14.93-7.636z"/>
+            <path fill="#80B9D5" d="M0 106.813L14.93 99l15 7.813L15 114.626z"/>
+            <g>
+                <path fill="#F7F7F7" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M15 15.626L0 7.813 14.93 0l15 7.813v15.374L15 30.823V15.626zM0 7.813l14.93 7.813v15.197L0 23.187V7.813z"/>
+                <path fill="#00ACFF" d="M0 7.813l14.93 7.813v15.197L0 23.187z"/>
+                <path fill="#046383" d="M29.93 7.813L15 15.626v15.197l14.93-7.636z"/>
+                <path fill="#80B9D5" d="M0 7.813L14.93 0l15 7.813L15 15.626z"/>
+            </g>
+            <text fill="#FFF" font-family="Poppins-Bold, Poppins" font-size="15" font-weight="bold">
+                <tspan x="41" y="121">Goods</tspan>
+            </text>
+        </g>
+        <g transform="translate(512 160)">
+            <rect width="151" height="59" x="14.5" y=".5" fill="#046383" stroke="#2290C5" rx="4"/>
+            <text fill="#FFF" font-family="Poppins-Bold, Poppins" font-size="15" font-weight="bold">
+                <tspan x="41" y="25">Operating </tspan> <tspan x="41" y="43">Expenses</tspan>
+            </text>
+            <path fill="#F7F7F7" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M15 30.626L0 22.813 14.93 15l15 7.813v15.374L15 45.823V30.626zM0 22.813l14.93 7.813v15.197L0 38.187V22.813z"/>
+            <path fill="#00ACFF" d="M0 22.813l14.93 7.813v15.197L0 38.187z"/>
+            <path fill="#046383" d="M29.93 22.813L15 30.626v15.197l14.93-7.636z"/>
+            <path fill="#80B9D5" d="M0 22.813L14.93 15l15 7.813L15 30.626z"/>
+        </g>
+        <g transform="translate(511 460)">
+            <rect width="151" height="59" x="15.5" y=".5" fill="#046383" stroke="#2290C5" rx="4"/>
+            <path fill="#F7F7F7" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M15 30.626L0 22.813 14.93 15l15 7.813v15.374L15 45.823V30.626zM0 22.813l14.93 7.813v15.197L0 38.187V22.813z"/>
+            <path fill="#00ACFF" d="M0 22.813l14.93 7.813v15.197L0 38.187z"/>
+            <path fill="#046383" d="M29.93 22.813L15 30.626v15.197l14.93-7.636z"/>
+            <path fill="#80B9D5" d="M0 22.813L14.93 15l15 7.813L15 30.626z"/>
+            <text fill="#FFF" font-family="Poppins-Bold, Poppins" font-size="15" font-weight="bold">
+                <tspan x="42" y="36">Projects</tspan>
+            </text>
+        </g>
+        <g transform="translate(511 560)">
+            <rect width="151" height="59" x="15.5" y=".5" fill="#046383" stroke="#2290C5" rx="4"/>
+            <path fill="#F7F7F7" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M15 30.626L0 22.813 14.93 15l15 7.813v15.374L15 45.823V30.626zM0 22.813l14.93 7.813v15.197L0 38.187V22.813z"/>
+            <path fill="#00ACFF" d="M0 22.813l14.93 7.813v15.197L0 38.187z"/>
+            <path fill="#046383" d="M29.93 22.813L15 30.626v15.197l14.93-7.636z"/>
+            <path fill="#80B9D5" d="M0 22.813L14.93 15l15 7.813L15 30.626z"/>
+            <text fill="#FFF" font-family="Poppins-Bold, Poppins" font-size="15" font-weight="bold">
+                <tspan x="42" y="36">Sponsorships</tspan>
+            </text>
+        </g>
+        <g fill="#FFF" transform="translate(5 6)">
+            <use filter="url(#c)" xlink:href="#d"/>
+            <use xlink:href="#d"/>
+        </g>
+        <g fill="#FFF" transform="translate(5 6)">
+            <use filter="url(#e)" xlink:href="#f"/>
+            <use xlink:href="#f"/>
+        </g>
+        <g fill="#FFF" transform="translate(5 6)">
+            <use filter="url(#g)" xlink:href="#h"/>
+            <use xlink:href="#h"/>
+        </g>
+        <g fill="#FFF" transform="translate(5 6)">
+            <use filter="url(#i)" xlink:href="#j"/>
+            <use xlink:href="#j"/>
+        </g>
+        <path fill="#8D99A4" fill-rule="nonzero" d="M275 551.5v17h6l-7 14-7-14h6v-17h-6l7-14 7 14h-6zM276 352.5v17h6l-7 14-7-14h6v-17h-6l7-14 7 14h-6zM336 551.5v17h6l-7 14-7-14h6v-17h-6l7-14 7 14h-6zM337 352.5v17h6l-7 14-7-14h6v-17h-6l7-14 7 14h-6zM336 161.61v9.713a7.002 7.002 0 0 1-1 13.929 7 7 0 0 1-1-13.93v-9.713h-6l7-14 7 14h-6zM398 551.5v17h6l-7 14-7-14h6v-17h-6l7-14 7 14h-6z"/>
+        <g fill="#00ACFF" fill-rule="nonzero" stroke-linecap="square">
+            <path d="M490.05 189.5H473v-2h17.05v-6l14 7-14 7v-6zM490.05 289H473v-2h17.05v-6l14 7-14 7v-6zM490.05 391.5H473v-2h17.05v-6l14 7-14 7v-6zM490.05 493.5H473v-2h17.05v-6l14 7-14 7v-6zM490.05 591.5H473v-2h17.05v-6l14 7-14 7v-6zM98 168.954V74.34a5 5 0 0 1 5-5h107.844v-6l14 7-14 7v-6H103a3 3 0 0 0-3 3v94.614a7.002 7.002 0 0 1-1 13.93 7 7 0 0 1-1-13.93z"/>
+            <path d="M450.93 68.824h18.94a5 5 0 0 1 5 5V644.5a5 5 0 0 1-5 5H458v6l-14-7 14-7v6h11.87a3 3 0 0 0 3-3V73.824a3 3 0 0 0-3-3h-18.94a7.002 7.002 0 0 1-13.93-1 7 7 0 0 1 13.93-1z"/>
+        </g>
+        <path fill="#8D99A4" fill-rule="nonzero" d="M700.605 287.352L716.98 287l1-.021.042 2-1 .02-16.373.352a7.002 7.002 0 0 1-13.947-.7 7 7 0 0 1 13.904-1.3zM700.628 386.5H718v2h-17.372a7.002 7.002 0 0 1-13.929-1 7 7 0 0 1 13.93-1zM700.628 491.5H718v2h-17.372a7.002 7.002 0 0 1-13.929-1 7 7 0 0 1 13.93-1zM700.628 591H718v2h-17.372a7.002 7.002 0 0 1-13.929-1 7 7 0 0 1 13.93-1zM399 352.5v17h6l-7 14-7-14h6v-17h-6l7-14 7 14h-6zM99.946 352.5V456a3 3 0 0 0 3 3h107.898v-6l14 7-14 7v-6H102.946a5 5 0 0 1-5-5V352.5h-6l7-14 7 14h-6z"/>
+        <path fill="#8D99A4" fill-rule="nonzero" d="M700.648 187h12.512a5 5 0 0 1 5 5v475.506a5 5 0 0 1-5 5H457.998v6l-14-7 14-7v6H713.16a3 3 0 0 0 3-3V192a3 3 0 0 0-3-3h-12.512a7.002 7.002 0 0 1-13.93-1 7 7 0 0 1 13.93-1z"/>
+        <g transform="translate(460 99)">
+            <circle cx="14" cy="14" r="14" fill="#F9F9FA" stroke="#00ACFF" stroke-width="2"/>
+            <path fill="#222A3D" d="M19 16.486a2.92 2.92 0 0 1-.483 1.626c-.322.494-.8.889-1.433 1.183-.633.295-1.395.442-2.286.442V21h-.692v-1.294c-1.17-.095-2.123-.442-2.858-1.042-.735-.6-1.14-1.4-1.216-2.4h2.93c.033.338.148.622.347.853.198.232.464.39.797.474v-2.51c-.183-.052-.301-.09-.355-.11-.783-.221-1.425-.445-1.924-.671a3.484 3.484 0 0 1-1.288-1.01c-.36-.447-.539-1.04-.539-1.776 0-.642.18-1.205.54-1.689.359-.484.85-.855 1.473-1.112.622-.258 1.32-.398 2.093-.419V7h.692v1.31c1.18.074 2.12.403 2.817.987.698.583 1.09 1.354 1.176 2.312h-2.979c-.043-.316-.15-.574-.322-.774a1.309 1.309 0 0 0-.692-.41v2.462l.499.158c.784.242 1.42.476 1.908.702.488.227.91.56 1.264 1.003.354.442.531 1.02.531 1.736zm-6.054-5.082c0 .284.1.523.298.718.199.194.486.37.862.529v-2.29c-.365.022-.65.122-.854.3-.204.18-.306.427-.306.743zm1.852 6.266c.386-.01.692-.119.918-.324.225-.205.338-.47.338-.797a.949.949 0 0 0-.322-.734c-.215-.195-.526-.366-.934-.513v2.368z"/>
+        </g>
+        <g transform="translate(85 99)">
+            <circle cx="14" cy="14" r="14" fill="#F9F9FA" stroke="#00ACFF" stroke-width="2"/>
+            <path fill="#222A3D" d="M19 16.486a2.92 2.92 0 0 1-.483 1.626c-.322.494-.8.889-1.433 1.183-.633.295-1.395.442-2.286.442V21h-.692v-1.294c-1.17-.095-2.123-.442-2.858-1.042-.735-.6-1.14-1.4-1.216-2.4h2.93c.033.338.148.622.347.853.198.232.464.39.797.474v-2.51c-.183-.052-.301-.09-.355-.11-.783-.221-1.425-.445-1.924-.671a3.484 3.484 0 0 1-1.288-1.01c-.36-.447-.539-1.04-.539-1.776 0-.642.18-1.205.54-1.689.359-.484.85-.855 1.473-1.112.622-.258 1.32-.398 2.093-.419V7h.692v1.31c1.18.074 2.12.403 2.817.987.698.583 1.09 1.354 1.176 2.312h-2.979c-.043-.316-.15-.574-.322-.774a1.309 1.309 0 0 0-.692-.41v2.462l.499.158c.784.242 1.42.476 1.908.702.488.227.91.56 1.264 1.003.354.442.531 1.02.531 1.736zm-6.054-5.082c0 .284.1.523.298.718.199.194.486.37.862.529v-2.29c-.365.022-.65.122-.854.3-.204.18-.306.427-.306.743zm1.852 6.266c.386-.01.692-.119.918-.324.225-.205.338-.47.338-.797a.949.949 0 0 0-.322-.734c-.215-.195-.526-.366-.934-.513v2.368z"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,294 @@
+@import fonts, colors
+
+$transition: .5s
+$transition-links: .15s
+
+*
+	outline: none !important
+
+body
+	font-family: 'Rubik', sans-serif
+	color: $body
+	background-color: #f7f7f7
+
+img
+	max-width: 100%
+	height: auto
+
+hr 
+	&.success 
+		max-width: 73px
+		border-top: 2px solid $success-2
+		margin-left: 0
+
+a 
+	transition: $transition-links
+	&:hover 
+		text-decoration: none
+		color: $success-2
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6
+	font-family: 'Poppins', sans-serif
+	font-weight: 900
+	a 
+		color: inherit
+
+.text-white
+	.h1, h1
+		text-shadow: 0 0 14px rgba(0, 0, 0, 0.27)
+	.h2, h2
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5)
+.h1, h1
+	&.text-white
+		text-shadow: 0 0 14px rgba(0, 0, 0, 0.27)
+.h2, h2
+	&.text-white
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5)
+
+.h1, h1
+	font-size: 74px
+	line-height: 1.11
+	margin-bottom: 1.25rem
+.h2, h2
+	font-size: 40px
+.h3, h3
+	font-size: 25px
+.h4, h4
+	font-size: 23px
+	font-weight: 700
+.h5, h5
+	font-size: 20px
+
+*:not(.text-content)
+	.h2, h2
+		margin-bottom: 1rem
+	.h3, h3
+		margin-bottom: .75rem
+	.h4, h4
+		margin-bottom: 1.75rem
+
+.text-content
+	.h2, h2, .h3, h3, .h4, h4
+		color: $success-3
+
+.fz-20
+	font-size: 20px
+	line-height: 1.15
+.fz-18
+	font-size: 18px
+	line-height: 1.17
+
+.form-row 
+	margin-left: -8px
+	margin-right: -8px
+	> [class*="col"]
+		padding-left: 8px
+		padding-right: 8px
+
+.btn 
+	border-radius: 100px
+	font-weight: 700
+	border: none
+	border-radius: 100px
+	box-shadow: none !important
+	&-light
+		background-color: $success-1 !important
+		color: $black
+		box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.13) !important
+		font-size: 18px
+		padding: 6.5px 27.5px
+		&:hover, &.mPS2id-highlight-first
+			background-color: $success-2 !important
+	&-success
+		background-image: linear-gradient(to right, #73a816 5%, #279860)
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 0 9px 0 rgba(0, 0, 0, 0.23) !important
+		padding: 10px 50px
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.08)
+		&:hover
+			background-image: linear-gradient(to right, #50750d, #0f5a35)
+	&-outline-success
+		color: inherit
+		border: 2px solid $success-1
+		background-color: transparent !important
+		padding: 3px 26px
+		&:hover
+			border-color: inherit !important
+
+label
+	&.error
+		width: 100%
+		margin-bottom: 0
+		margin-top: 11px
+		color: $error
+
+.form-control
+	border-color: $border
+	color: inherit
+	padding: 9px 19px
+	border-radius: 4px
+	height: auto
+	resize: none
+	&::-webkit-input-placeholder
+		color: inherit
+	&::-moz-placeholder    
+		color: inherit
+	&:-ms-input-placeholder  
+		color: inherit
+	&:focus 
+		border-color: $focus
+		box-shadow: 0 0 0 4px $focus-shadow
+	&.error
+		border-color: $error
+		box-shadow: 0 0 0 4px $error-shadow
+
+.checkbox-group
+	display: flex
+	flex-wrap: wrap
+	position: relative
+	padding-top: 6px
+	margin-bottom: 18px
+	.label
+		cursor: pointer
+		margin-bottom: 0
+		order: -1
+		flex-grow: 100%
+		&:before
+			content: ''
+			display: inline-block
+			width: 21px
+			height: 21px
+			border: 1px solid $border
+			border-radius: 3px
+			font-size: 0
+			margin-top: -2px
+			margin-right: 17px
+			vertical-align: middle
+			transition: .15s
+			background-repeat: no-repeat
+	&:hover .label:before
+		opacity: 0.8
+	input
+		display: none
+		&:checked ~ .label:before
+			background-image: url("../img/icon-ui-check.svg")
+			background-position: calc(100% + 2px) calc(0% - 2px)
+
+%navbar-brand
+	color: green
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+	background-image: linear-gradient(to right, #73a816 5%, #279860)
+	background-clip: text
+	-webkit-background-clip: text
+	-webkit-text-fill-color: transparent
+
+.navbar
+	&.fixed-top
+		padding-top: 5px
+		padding-bottom: 5px
+		transition: $transition
+		.navbar-brand
+			font-family: 'Roboto', sans-serif
+			font-size: 27px
+			font-weight: 700
+			transition: $transition
+		.navbar-nav 
+			margin: 0 25px
+			.nav-link
+				color: #fff
+				padding: 6.5px 25px
+				font-size: 18px
+				font-weight: 700
+				&:hover, &.mPS2id-highlight-first
+					color: $success-1
+	&.sticky	
+		background-color: #fff
+		box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12)
+		.navbar-brand
+			@extend %navbar-brand
+		.navbar-nav 
+			.nav-link
+				color: $black
+				&:hover, &.mPS2id-highlight-first
+					color: $success-4
+	&.navbar-doc
+		.navbar-brand
+			@extend %navbar-brand
+
+.nav-link
+	border-radius: 100px
+
+.section-hero
+	padding-top: 203px
+	padding-bottom: 173px
+	background: url(../img/hero.svg) center bottom
+	background-size: cover
+
+.section-features
+	margin-top: -70px
+	padding-bottom: 93px
+
+.box
+	height: 100%
+	border-radius: 4px
+	background-color: #fff
+	padding: 25px 30px 5px
+	box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.1)
+	ul 
+		text-align: left
+		li 
+			margin-bottom: 1.5rem
+			padding-left: 34px
+			position: relative
+			&:before 
+				content: ''
+				display: inline-block
+				width: 1rem
+				height: 1rem
+				border: 2px solid $success-2
+				border-radius: 50%
+				position: absolute
+				top: 2px
+				left: 0
+
+.section-technology
+	padding-top: 129px
+	padding-bottom: 78px
+	background-color: $gray
+
+.section-team
+	padding-top: 125px
+	padding-bottom: 95px
+
+.avatar
+	display: inline-block
+	width: 189px
+	height: 189px
+	border-radius: 50%
+	background-size: cover
+	margin-bottom: 34px
+
+.section-demo
+	padding-top: 136px
+	padding-bottom: 168px
+	background-color: $gray
+	.left
+		padding: 50px 89px 62px 79px
+	.right
+		padding: 25px 0 25px 105px
+		border-left: 1px solid $gray
+
+.page-footer
+	padding-top: 15.5px
+	padding-bottom: 15.5px
+	.nav-link
+		color: inherit
+		padding-top: 6px
+		padding-bottom: 6px
+		&:hover 
+			color: $success-4
+
+.section-doc
+	padding-top: 130px
+	padding-bottom: 30px
+
+@import media
